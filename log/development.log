@@ -464,3 +464,14 @@ Served asset /teams.js - 304 Not Modified (22ms)
 
 Started GET "/assets/application.js?body=1" for 127.6.155.129 at 2013-09-23 20:02:37 -0400
 Served asset /application.js - 304 Not Modified (13ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.8ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePlayers (20130923232606)
+Migrating to AddColumnsToPlayer (20130923232705)
+Migrating to CreateTeams (20130923232909)
+Migrating to AddColumnToPlayers (20130923235251)
+Migrating to RemoveColumnFromPlayers (20130923235439)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("players")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("teams")[0m
