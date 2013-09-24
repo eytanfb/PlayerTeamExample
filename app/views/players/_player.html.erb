@@ -1,0 +1,5 @@
+<p>Name: <%= player.name %></p>
+<p>Position: <%= player.position %></p>
+
+<p>Contract Details</p>
+    <%= render player.contract if player.contract.present? %>

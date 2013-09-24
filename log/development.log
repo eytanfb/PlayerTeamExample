@@ -86,3 +86,1033 @@ Migrating to CreateContracts (20130924035653)
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("contracts")[0m
   [1m[35m (0.0ms)[0m  PRAGMA index_list("players")
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("teams")[0m
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 20:58:49 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.2ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = 1[0m
+  Rendered teams/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 20:58:49 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-23 20:58:49 -0700
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-23 20:58:49 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-09-23 20:58:49 -0700
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-23 20:58:49 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-09-23 20:58:49 -0700
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-23 20:58:49 -0700
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 20:58:49 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 20:58:49 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.1ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = 1[0m
+  Rendered teams/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 20:58:50 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-09-23 20:58:50 -0700
+Served asset /players.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-23 20:58:50 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-23 20:58:50 -0700
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-23 20:58:50 -0700
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-23 20:58:50 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-09-23 20:58:50 -0700
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 20:58:50 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 20:59:17 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.1ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = 1[0m
+  Rendered teams/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 20:59:17 -0700
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-23 20:59:17 -0700
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-23 20:59:17 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-23 20:59:17 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-09-23 20:59:17 -0700
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-09-23 20:59:17 -0700
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-23 20:59:17 -0700
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 20:59:17 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:01:49 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.1ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = 1[0m
+  Rendered teams/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:49 -0700
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:49 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:49 -0700
+Served asset /teams.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:49 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:49 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:49 -0700
+Served asset /players.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:49 -0700
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:49 -0700
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:01:50 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.1ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = 1[0m
+  Rendered teams/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:50 -0700
+Served asset /teams.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:50 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:50 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:50 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:50 -0700
+Served asset /players.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:50 -0700
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:50 -0700
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:50 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.1ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = 1[0m
+  Rendered teams/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /players.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.1ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = 1[0m
+  Rendered teams/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /teams.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.1ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = 1[0m
+  Rendered teams/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /players.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.1ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = 1[0m
+  Rendered teams/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:52 -0700
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:52 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-23 21:01:52 -0700
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:02:07 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.1ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = 1[0m
+  Rendered teams/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:07 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:07 -0700
+Served asset /players.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:07 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:07 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:07 -0700
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:07 -0700
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:07 -0700
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:07 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:02:08 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.1ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = 1[0m
+  Rendered teams/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:08 -0700
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:08 -0700
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:08 -0700
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:08 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:08 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:08 -0700
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:08 -0700
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:08 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:02:09 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.1ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = 1[0m
+  Rendered teams/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:09 -0700
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:09 -0700
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:09 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:09 -0700
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:09 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:09 -0700
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:09 -0700
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:09 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.1ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = 1[0m
+  Rendered teams/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.1ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = 1[0m
+  Rendered teams/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.1ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = 1[0m
+  Rendered teams/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.1ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = 1[0m
+  Rendered teams/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /players.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /players.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 21:02:10 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:02:36 -0700
+Connecting to database specified by database.yml
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.1ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = 1
+  Rendered players/_player.html.erb (3.3ms)
+  Rendered teams/show.html.erb within layouts/application (41.8ms)
+Completed 500 Internal Server Error in 64ms
+
+ActionView::Template::Error (undefined method `contract' for #<Player:0x007fa9ce3602c0>):
+    2: <p>Position: <%= player.position %></p>
+    3: 
+    4: <p>Contract Details</p>
+    5:     <%= render player.contract %>
+  app/views/players/_player.html.erb:5:in `_app_views_players__player_html_erb__1005153502359499581_70183644332780'
+  app/views/teams/show.html.erb:3:in `_app_views_teams_show_html_erb__281313749533594135_70183642182520'
+
+
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.9ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:02:36 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.1ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = 1
+  Rendered players/_player.html.erb (0.7ms)
+  Rendered teams/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `contract' for #<Player:0x007fa9cd421458>):
+    2: <p>Position: <%= player.position %></p>
+    3: 
+    4: <p>Contract Details</p>
+    5:     <%= render player.contract %>
+  app/views/players/_player.html.erb:5:in `_app_views_players__player_html_erb__1005153502359499581_70183644332780'
+  app/views/teams/show.html.erb:3:in `_app_views_teams_show_html_erb__281313749533594135_70183642182520'
+
+
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.6ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:02:52 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.1ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = 1
+  Rendered players/_player.html.erb (1.0ms)
+  Rendered teams/show.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `contract' for #<Player:0x007fa9cd7db990>):
+    2: <p>Position: <%= player.position %></p>
+    3: 
+    4: <p>Contract Details</p>
+    5:     <%= render player.contract if player.contract.present? %>
+  app/views/players/_player.html.erb:5:in `_app_views_players__player_html_erb__1005153502359499581_70183642175440'
+  app/views/teams/show.html.erb:3:in `_app_views_teams_show_html_erb__281313749533594135_70183642182520'
+
+
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.7ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:02:53 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.1ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = 1
+  Rendered players/_player.html.erb (0.7ms)
+  Rendered teams/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `contract' for #<Player:0x007fa9cfc32370>):
+    2: <p>Position: <%= player.position %></p>
+    3: 
+    4: <p>Contract Details</p>
+    5:     <%= render player.contract if player.contract.present? %>
+  app/views/players/_player.html.erb:5:in `_app_views_players__player_html_erb__1005153502359499581_70183642175440'
+  app/views/teams/show.html.erb:3:in `_app_views_teams_show_html_erb__281313749533594135_70183642182520'
+
+
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.1ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:03:09 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.1ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = 1
+  Rendered players/_player.html.erb (0.8ms)
+  Rendered teams/show.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `contract' for #<Player:0x007fa9cc9b3570>):
+    2: <p>Position: <%= player.position %></p>
+    3: 
+    4: <p>Contract Details</p>
+    5:     <%= render player.contract if player.contract.present? %>
+  app/views/players/_player.html.erb:5:in `_app_views_players__player_html_erb__1005153502359499581_70183642175440'
+  app/views/teams/show.html.erb:3:in `_app_views_teams_show_html_erb__281313749533594135_70183642182520'
+
+
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:03:09 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.1ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = 1
+  Rendered players/_player.html.erb (0.6ms)
+  Rendered teams/show.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `contract' for #<Player:0x007fa9cb93c228>):
+    2: <p>Position: <%= player.position %></p>
+    3: 
+    4: <p>Contract Details</p>
+    5:     <%= render player.contract if player.contract.present? %>
+  app/views/players/_player.html.erb:5:in `_app_views_players__player_html_erb__1005153502359499581_70183642175440'
+  app/views/teams/show.html.erb:3:in `_app_views_teams_show_html_erb__281313749533594135_70183642182520'
+
+
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.7ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:03:10 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.1ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = 1
+  Rendered players/_player.html.erb (0.7ms)
+  Rendered teams/show.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `contract' for #<Player:0x007fa9cc8c0938>):
+    2: <p>Position: <%= player.position %></p>
+    3: 
+    4: <p>Contract Details</p>
+    5:     <%= render player.contract if player.contract.present? %>
+  app/views/players/_player.html.erb:5:in `_app_views_players__player_html_erb__1005153502359499581_70183642175440'
+  app/views/teams/show.html.erb:3:in `_app_views_teams_show_html_erb__281313749533594135_70183642182520'
+
+
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.7ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:03:10 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.1ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = 1
+  Rendered players/_player.html.erb (0.6ms)
+  Rendered teams/show.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `contract' for #<Player:0x007fa9cd3fe728>):
+    2: <p>Position: <%= player.position %></p>
+    3: 
+    4: <p>Contract Details</p>
+    5:     <%= render player.contract if player.contract.present? %>
+  app/views/players/_player.html.erb:5:in `_app_views_players__player_html_erb__1005153502359499581_70183642175440'
+  app/views/teams/show.html.erb:3:in `_app_views_teams_show_html_erb__281313749533594135_70183642182520'
+
+
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.3ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:03:10 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.1ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = 1
+  Rendered players/_player.html.erb (0.6ms)
+  Rendered teams/show.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `contract' for #<Player:0x007fa9ce4a4d48>):
+    2: <p>Position: <%= player.position %></p>
+    3: 
+    4: <p>Contract Details</p>
+    5:     <%= render player.contract if player.contract.present? %>
+  app/views/players/_player.html.erb:5:in `_app_views_players__player_html_erb__1005153502359499581_70183642175440'
+  app/views/teams/show.html.erb:3:in `_app_views_teams_show_html_erb__281313749533594135_70183642182520'
+
+
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.7ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:03:10 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.1ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = 1
+  Rendered players/_player.html.erb (0.6ms)
+  Rendered teams/show.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `contract' for #<Player:0x007fa9ce14cb78>):
+    2: <p>Position: <%= player.position %></p>
+    3: 
+    4: <p>Contract Details</p>
+    5:     <%= render player.contract if player.contract.present? %>
+  app/views/players/_player.html.erb:5:in `_app_views_players__player_html_erb__1005153502359499581_70183642175440'
+  app/views/teams/show.html.erb:3:in `_app_views_teams_show_html_erb__281313749533594135_70183642182520'
+
+
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.6ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:03:19 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.1ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = 1
+  Rendered players/_player.html.erb (0.9ms)
+  Rendered teams/show.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `contract' for #<Player:0x007fa9cc821dd8>):
+    2: <p>Position: <%= player.position %></p>
+    3: 
+    4: <p>Contract Details</p>
+    5:     <%= render player.contract if player.contract.present? %>
+  app/views/players/_player.html.erb:5:in `_app_views_players__player_html_erb__1005153502359499581_70183642175440'
+  app/views/teams/show.html.erb:3:in `_app_views_teams_show_html_erb__281313749533594135_70183642182520'
+
+
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.5ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:03:20 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.1ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = 1
+  Rendered players/_player.html.erb (0.6ms)
+  Rendered teams/show.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `contract' for #<Player:0x007fa9cb94aa58>):
+    2: <p>Position: <%= player.position %></p>
+    3: 
+    4: <p>Contract Details</p>
+    5:     <%= render player.contract if player.contract.present? %>
+  app/views/players/_player.html.erb:5:in `_app_views_players__player_html_erb__1005153502359499581_70183642175440'
+  app/views/teams/show.html.erb:3:in `_app_views_teams_show_html_erb__281313749533594135_70183642182520'
+
+
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.7ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:03:20 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.1ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = 1
+  Rendered players/_player.html.erb (0.6ms)
+  Rendered teams/show.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `contract' for #<Player:0x007fa9cc8c2e40>):
+    2: <p>Position: <%= player.position %></p>
+    3: 
+    4: <p>Contract Details</p>
+    5:     <%= render player.contract if player.contract.present? %>
+  app/views/players/_player.html.erb:5:in `_app_views_players__player_html_erb__1005153502359499581_70183642175440'
+  app/views/teams/show.html.erb:3:in `_app_views_teams_show_html_erb__281313749533594135_70183642182520'
+
+
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.7ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:03:20 -0700
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.1ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = 1
+  Rendered players/_player.html.erb (0.6ms)
+  Rendered teams/show.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `contract' for #<Player:0x007fa9cba20c70>):
+    2: <p>Position: <%= player.position %></p>
+    3: 
+    4: <p>Contract Details</p>
+    5:     <%= render player.contract if player.contract.present? %>
+  app/views/players/_player.html.erb:5:in `_app_views_players__player_html_erb__1005153502359499581_70183642175440'
+  app/views/teams/show.html.erb:3:in `_app_views_teams_show_html_erb__281313749533594135_70183642182520'
+
+
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.6ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2013-09-23 21:03:37 -0700
+Connecting to database specified by database.yml
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.2ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = 1
+  Rendered players/_player.html.erb (3.9ms)
+  Rendered teams/show.html.erb within layouts/application (44.0ms)
+Completed 500 Internal Server Error in 88ms
+
+ActionView::Template::Error (undefined method `contract' for #<Player:0x007fdd0b323e40>):
+    2: <p>Position: <%= player.position %></p>
+    3: 
+    4: <p>Contract Details</p>
+    5:     <%= render player.contract if player.contract.present? %>
+  app/views/players/_player.html.erb:5:in `_app_views_players__player_html_erb__431168754460831914_70293711127620'
+  app/views/teams/show.html.erb:3:in `_app_views_teams_show_html_erb__1332302867839225518_70293700699400'
+
+
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/eytanfb/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePlayers (20130923232606)
+Migrating to AddColumnsToPlayer (20130923232705)
+Migrating to CreateTeams (20130923232909)
+Migrating to AddColumnToPlayers (20130923235251)
+Migrating to RemoveColumnFromPlayers (20130923235439)
+Migrating to CreateContracts (20130924035653)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("contracts")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("players")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("teams")
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.8ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePlayers (20130923232606)
+Migrating to AddColumnsToPlayer (20130923232705)
+Migrating to CreateTeams (20130923232909)
+Migrating to AddColumnToPlayers (20130923235251)
+Migrating to RemoveColumnFromPlayers (20130923235439)
+Migrating to CreateContracts (20130924035653)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("contracts")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("players")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("teams")
